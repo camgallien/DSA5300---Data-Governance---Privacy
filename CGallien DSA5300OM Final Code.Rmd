@@ -1,0 +1,97 @@
+---
+title: "Data Governance & Privacy Final Project"
+author: "Cameron Gallien"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+## Libraries & Data Import
+```{r}
+library("readxl")
+library("dplyr")
+CustDF <- read_excel("Merr.Customer.Survey (2).xlsx")
+```
+
+## Selecting variables
+
+```{r}
+QuasiCustDF <- CustDF %>% 
+  select(Age, EducationYears, HouseholdIncome, HouseholdSize, DebtToIncomeRatio, PhoneCoTenure)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
